@@ -277,6 +277,9 @@ header .btn-group {
 .mobile-nav.active {
   transform: translateX(0);
   visibility: visible;  align-items: center !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
 }
 
