@@ -22,13 +22,13 @@
 
 <body class="light-theme">
 
-  <!--
-    - #HEADER
-  -->
+  <!-------------------------------------------------------------------------------
+                                      - #HEADER
+  ---------------------------------------------------------------------------->
 
   <header>
 
-    <div class="container">
+    <div class="container" ">
 
       <nav class="navbar">
 
@@ -38,11 +38,6 @@
         </a>
 
         <div class="btn-group">
-
-          <button class="theme-btn theme-btn-mobile light">
-            <ion-icon name="moon" class="moon"></ion-icon>
-            <ion-icon name="sunny" class="sun"></ion-icon>
-          </button>
 
           <button class="nav-menu-btn">
             <ion-icon name="menu-outline"></ion-icon>
@@ -54,17 +49,20 @@
               <a href="#" class="nav-link">Home</a>
             </li>
             <li>
-              <a href="#" class="nav-link">About Me</a>
+              <a href="#" class="nav-link">Services</a>
             </li>
             <li>
-              <a href="#" class="nav-link">Contact</a>
+              <a href="#" class="nav-link">Offers</a>
+            </li>
+            <li>
+              <a href="#" class="nav-link">Offers</a>
+            </li>
+            <li>
+             <button type="submit" class="appoinment-button" >Book Apoinment</button>
             </li>
           </ul>
 
-          <button class="theme-btn theme-btn-desktop light">
-            <ion-icon name="moon" class="moon"></ion-icon>
-            <ion-icon name="sunny" class="sun"></ion-icon>
-          </button>
+
 
         </div>
 
@@ -84,12 +82,18 @@
               </li>
 
               <li class="nav-item">
-                <a href="#" class="nav-link">About Me</a>
+                <a href="#" class="nav-link">Services</a>
               </li>
 
               <li class="nav-item">
-                <a href="#" class="nav-link">Contact</a>
+                <a href="#" class="nav-link">Offers</a>
               </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">About Us</a>
+              </li>
+              <li>
+                <button type="submit"  class="appoinment-button" >Book Apoinment</button>
+               </li>
             </ul>
           </div>
           <div>
@@ -121,7 +125,6 @@
                                  #HERO SECTION
 --------------------------------------------------------------------------------------->
 
-
   <main>
 
     <div class="hero">
@@ -142,6 +145,24 @@
 
         </div>
       </div>
+      <!-- wave----------------------------------------------------------------- -->
+    </div>
+    <div class="header-wave">
+      <!--Waves Container-->
+      <div>
+      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+      <defs>
+      <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+      </defs>
+      <g class="parallax">
+      <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+      <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+      <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+      <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+      </g>
+      </svg>
+      </div>
     </div>
 <!-- --------------------------------------------------------- -->
 <!--                           main                               -->
@@ -158,7 +179,11 @@
         <div class="blog">
 
           <h2 class="h2 list-style"><strong class="bold-list-font"> <b> List Of </b> </strong> Services</h2>
-
+          <ul class="category">
+            <li class="categoryItem">Female</li>
+            <li class="categoryItem">Male</li>
+            <li class="categoryItem">Kids</li>
+          </ul>
           <div class="blog-card-group">
 
             <div class="blog-card">
@@ -296,7 +321,7 @@
           - ASIDE
         -->
 
-        <div class="aside">
+        <!-- <div class="aside">
           <div class="topics">
             <h2 class="h2">Category</h2>
             <a href="#" class="topic-btn">
@@ -311,8 +336,34 @@
               <p>Kids</p>
             </a>
           </div>
-        </div>
-
+        </div> -->
+         <div class="aside"> 
+          <h2 class="h2">Category</h2>
+          <div class="topics">
+            
+            <div class="styleCard">
+              <img src="./assets/images/hero1.png" alt="hero1">
+              <h2>Layer Cut</h2>
+              <p>Rs. 499</p>
+            </div>
+            <div class="styleCard">
+              <img src="./assets/images/hero1.png" alt="hero1">
+              <h2>Layer Cut</h2>
+              <p>Rs. 499</p>
+            </div>
+            <div class="styleCard">
+              <img src="./assets/images/hero1.png" alt="hero1">
+              <h2>Layer Cut</h2>
+              <p>Rs. 499</p>
+            </div>
+            <div class="styleCard">
+              <img src="./assets/images/hero1.png" alt="hero1">
+              <h2>Layer Cut</h2>
+              <p>Rs. 499</p>
+            </div>
+            
+          </div>
+        </div> 
       </div>
 
     </div>
