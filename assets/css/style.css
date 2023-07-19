@@ -948,6 +948,12 @@ body {
     color: var(--white);
   }
 
+  .designed-by{
+    display: flex;
+    font-size: 20px;
+    margin-top: 700px;
+  }
+
   .topic-btn ion-icon { --ionicon-stroke-width: 40px; }
 
   .topic-btn p {
